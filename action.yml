@@ -1,0 +1,19 @@
+name: "Inclui comentário"
+description: "Essa action inclui comentário em issues ou PRs."
+author: "Itamar de Brito Freire"
+inputs:
+  GITHUB_TOKEN:
+    description: "Token de autenticação do GitHub."
+    required: true
+  issue-id:
+    description: "ID da issue ou PR onde o comentário será adicionado."
+    required: true
+  comment:
+    description: "Texto do comentário a ser adicionado."
+    required: true
+outputs:
+  comement-id:
+    description: "ID do comentário adicionado."
+runs:
+  using: "node20"
+  main: "index.js"
