@@ -16,4 +16,4 @@ outputs:
     description: "ID do comentário adicionado."
 runs:
   using: "node20"
-  main: "index.js"
+  main: "dist/index.js"
