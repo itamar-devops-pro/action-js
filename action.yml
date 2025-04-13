@@ -12,7 +12,7 @@ inputs:
     description: "Texto do comentário a ser adicionado."
     required: true
 outputs:
-  comement-id:
+  coment-id:
     description: "ID do comentário adicionado."
 runs:
   using: "node20"
